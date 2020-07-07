@@ -205,9 +205,10 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   margin-bottom: 2.5rem;
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 60vw;
+  min-width: 60vw;
   border: 1px solid var(--clr-primary-5);
+  
   
 }
 .color {
