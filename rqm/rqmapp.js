@@ -31,7 +31,6 @@ function getRandomNumber(){
     return Math.floor(Math.random()*quote.length);
 }
 
-
 ////////// 
 /////nav//
 //////////
@@ -42,5 +41,3 @@ const links = document.querySelector(".links");
 navToggle.addEventListener("click", function () {
   links.classList.toggle("show-links");
 });
-
-
