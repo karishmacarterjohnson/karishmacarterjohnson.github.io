@@ -205,9 +205,10 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   margin-bottom: 2.5rem;
-  max-width: 40vw;
-  min-width: 40vw;
+  max-width: 100%;
+  min-width: 100%;
   border: 1px solid var(--clr-primary-5);
+  
 }
 .color {
   color: var(--clr-primary-5);
@@ -323,4 +324,5 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+
 
