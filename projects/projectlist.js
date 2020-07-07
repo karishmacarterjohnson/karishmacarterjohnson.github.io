@@ -101,3 +101,4 @@ navToggle.addEventListener("click", function () {
 });
 
 
+jQuery("quote-box").fitText(0.38);
