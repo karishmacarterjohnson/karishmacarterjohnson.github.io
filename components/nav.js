@@ -127,11 +127,7 @@ class Header extends HTMLElement {
                       <i class="fab fa-github"></i>
                   </a>
               </li>
-              <li>
-      <a href="https://www.twitter.com/feedingloops">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
+            
               <li>
                   <a href="https://www.linkedin.com/in/karishmacarterjohnson/">
                       <i class="fab fa-linkedin"></i>
