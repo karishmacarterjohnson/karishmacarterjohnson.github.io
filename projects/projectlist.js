@@ -15,9 +15,26 @@ const projectlist = [
     category: "HTML5",
     date: 2020.8,
     img: "../calculator/calc.png",
-    desc: `Basic calculator using JavaScript. Works on click.`,
+    desc: `Arithmetic calculator using JavaScript. Works on click.`,
   },
-
+  {
+    id: 3,
+    title: "Markdown Previewer",
+    file:"https://karishmacarterjohnson.github.io/markdown-editor",
+    category: "React",
+    date: 2020.12,
+    img: "../external_repo/markdown-previewer.png",
+    desc: "React Markdown Previewer. Extendable editor window for inputting text which is then updated automatically in the markdown previewer below."
+  },
+  {
+    id: 4,
+    title: "Tiktok Sound Board",
+    file:"../sound-board/sound-board.html",
+    category: "jQuery",
+    date: 2020.11,
+    img: "../sound-board/tiktok-sound-board.png",
+    desc: "Plays popular tiktok sound from Fall 2020 on keyboard or mouseclick. Displays audio title in window."
+  }
   ];
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
