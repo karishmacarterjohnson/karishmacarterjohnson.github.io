@@ -17,6 +17,7 @@ const projectlist = [
     img: "../calculator/calc.png",
     desc: `Basic calculator using JavaScript. Works on click.`,
   },
+
   ];
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
