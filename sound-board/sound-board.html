@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Machine</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="sound-boardstyles.css" />
+    <link
+    rel="stylesheet"
+    href="../fontawesome-free-5.12.0-web/css/all.min.css"
+  />
+  <script src = "../components/nav.js" type= "text/javascript" defer></script>
+      <!-- -->
+  </head>
+  
+  <body>
+
+    
+    <header-component></header-component>
+  <main>
+    <div class = "drum-machine" id = "drum-machine">
+      <div class = "hold">
+        <div class = "row">
+      <div class = "display" id = "display" ><span class = "display"></span>
+         <!-- <span class = "display">0</span> -->
+        
+      </div>
+        </div>
+      <div class = "row">
+      <!-- row 1 -->
+        
+        <div class = "cell btn btn-hero" id = "da vinki?" onClick = "togglePlay(document.getElementById('Q'))">
+          <div class = "drum-pad" id = "Qpad" >
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/davinki.mp3" class = "clip" id = "Q" preload = "auto"></audio>
+            Q
+          </div> 
+        </div>
+        <div class = "cell btn btn-hero" id = "when life gives you banana" onClick = "togglePlay(document.getElementById('W'))">
+          <div class = "drum-pad" id = "Wpad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/bananamilkshake.mp3" class = "clip" id = "W" preload = "auto"></audio>
+            W
+          </div>
+        </div>
+        <div class = "cell btn btn-hero" id = "daddy chill" onClick = "togglePlay(document.getElementById('E'))">
+          <div class = "drum-pad" id = "Epad">
+           <audio src = "https://karishmacarterjohnson.github.io/sound-board/daddychill.mp3" class = "clip" id = "E" preload = "auto"></audio>
+            E
+          </div>
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class = "row">
+        <div class = "cell btn btn-hero" id = "how will he get a kiss kiss?" onClick = "togglePlay(document.getElementById('A'))">
+          <div class = "drum-pad" id = "Apad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/hehasnolips.mp3" class = "clip" id = "A" preload = "auto"></audio>
+            A
+          </div>
+        </div>
+        <div class = "cell btn btn-hero" id = "it is what it is" onClick = "togglePlay(document.getElementById('S'))">
+          <div class = "drum-pad" id = "Spad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/itiswhatitis.mp3" class = "clip" id = "S" preload = "auto"></audio>
+            S
+          </div>
+        </div>
+        <div class = "cell btn btn-hero" id = "respect the drip, karen" onClick = "togglePlay(document.getElementById('D'))">
+          <div class = "drum-pad" id = "Dpad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/respectthedrip.mp3" class = "clip" id = "D" preload = "auto"></audio>
+            D
+          </div>
+        </div>    
+        <!-- row 3 -->
+      </div>
+      <div class = "row">
+        <div class = "cell btn btn-hero" id = "this is a strong message" onClick = "togglePlay(document.getElementById('Z'))">
+          <div class = "drum-pad" id = "Zpad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/strongmessage.mp3" class = "clip" id = "Z" preload = "auto"></audio>
+            Z
+          </div>
+        </div>
+        <div class = "cell btn btn-hero" id = "you did this for what?" onClick = "togglePlay(document.getElementById('X'))">
+          <div class = "drum-pad" id = "Xpad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/youdidthisforwhat.mp3" class = "clip" id = "X" preload = "auto"></audio>
+            X
+          </div>
+        </div>
+        <div class = "cell btn btn-hero" id = "Fuck the police" onClick = "togglePlay(document.getElementById('C'))">
+          <div class = "drum-pad" id = "Cpad">
+            <audio src = "https://karishmacarterjohnson.github.io/sound-board/1312.mp3" class = "clip" id = "C" preload = "auto"></audio>
+            C
+          </div>
+        </div>       
+       </div>
+      </div>
+   </div> 
+   <script src = "sound-board.js"></script>
+  </main>
+</body>
+</html>
