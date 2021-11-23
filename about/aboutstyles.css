@@ -1,4 +1,11 @@
 @import "../style-constants.css";
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 /*
 =============== 
 About
